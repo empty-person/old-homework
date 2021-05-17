@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>asdddad</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="mystyle.css">
+
+    </head>
+    <body>
+        
+        <div>
+        <h1>Google search! </h1>
+        <form action="https://www.google.com/search" method="get" id="testform">
+            <input type="text" name="q" required><br><br>
+            <label for="amount">Количество результатов на странице</label>
+            <input type="number" name="num" placeholder="5"><br><br>
+            <label for="language">Язык интерфейса</label>
+            <select name ="lr" form="testform">
+                <option value="lang_en">English</option>
+                <option value="lang_ru">Russian</option>
+                <option selected value="lang_be">Belarusian</option>
+                <option value="lang_ar">Arabic</option>
+                <option value="lang_zh-TW">Chinese (Traditional)</option>
+                <option value="lang_nl">Dutch</option>
+                <option value="lang_pl">Polish</option>
+                <option value="lang_sv">Swedish</option>
+            </select><br><br>
+            <input type="submit" value="Search!">
+        </div>
+        </form>
+    </body>
+</html>
