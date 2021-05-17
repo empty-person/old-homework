@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <div><span>текущее количество кофе в баке </span> <span id="currentCoffeTankAmount">0 </span></div> 
+        <div><span>текущее количество воды в баке </span> <span id="currentWaterTankAmount">0 </span></div> 
+    </div>
+    <div>
+        <button onclick="make(470, 11)">Американо</button>
+        <button onclick="make(30, 7)">Эспрессо</button>
+        <button onclick="make(60, 14)">Двойной Эспрессо</button>
+
+    </div>
+    <div>
+        <button onclick="fillWaterTank()">Заполнить бак с водой</button>
+        <button onclick="fillCoffeTank()">Заполнить бак с кофе</button>
+    </div>
+    <div>
+        <canvas id = "waterCanvassdx" width = "300" height = "200"></canvas>
+        <canvas id = "waterCanvas" width = "300" height = "200"></canvas>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
